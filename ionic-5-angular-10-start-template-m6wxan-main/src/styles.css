@@ -1,0 +1,90 @@
+/* Add application styles & imports to this file! */
+@import '~@ionic/angular/css/ionic.bundle.css';
+
+.logo {
+  width: 50px;
+  max-width: 60px;
+  padding: 10px;
+}
+
+.align-center {
+  text-align: center;
+}
+
+h1 {
+  text-transform: uppercase;
+  color: #d1c709;
+  font-size: 1.3rem;
+  font-weight: bold;
+}
+h2 {
+  text-transform: uppercase;
+  color: #fff;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.main {
+  margin-bottom: 20px;
+  width: 100%;
+}
+.destaque {
+  width: 600px;
+  height: 300px;
+  opacity: 0.3;
+  background-image: url('https://www.lance.com.br/files/article_main/uploads/2021/08/28/612aa516eca58.jpeg');
+  position: relative;
+}
+.main h1 {
+  width: auto;
+  position: absolute;
+  top: 10%;
+  transform: translate(50%, 50%);
+}
+.main h2 {
+  width: auto;
+  position: absolute;
+  top: 20%;
+  left: 40%;
+}
+.img-left {
+  width: 100px;
+  position: absolute;
+  top: 20%;
+  left: 10%;
+}
+.img-right {
+  width: 100px;
+  position: absolute;
+  top: 20%;
+  right: 10%;
+}
+
+.socio-rei {
+  width: 50%;
+  margin: 0 auto;
+}
+.socio-rei-img {
+  background-color: #fff;
+}
+.video-content {
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+:root {
+  /* FONTE */
+  --ion-font-family: 'Kanit', sans-serif;
+
+  /* BARRA SUPERIOR */
+  --ion-toolbar-background: #000;
+  --ion-toolbar-color: #fff;
+
+  /* BODY */
+  --ion-background-color: #000;
+
+  /* BARRA INFERIOR */
+  --ion-tab-bar-background: linear-gradient(180deg, #838383 0%, #525252 100%);
+  --ion-tab-bar-color: #ddd;
+  --ion-tab-bar-color-selected: #d1c709;
+}

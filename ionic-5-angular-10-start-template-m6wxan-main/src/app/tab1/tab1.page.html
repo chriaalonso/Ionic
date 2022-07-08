@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-buttons slot="start">
+      <ion-button>
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/9/92/LogoSantosFC.png"
+          alt="Santos FC"
+          class="logo"
+        />
+      </ion-button>
+      <ion-title>Santos FC</ion-title>
+    </ion-buttons>
+    <ion-buttons slot="secondary">
+      <ion-menu-button autoHide="false"></ion-menu-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="align-center">
+    <ion-button color="medium" class="cinza" (click)="ingresso()">
+      <ion-icon name="arrow-forward-circle"></ion-icon>
+      &nbsp;Ingressos</ion-button
+    >
+    <ion-button color="medium" class="cinza" (click)="lojaOficial()">
+      <ion-icon name="cart-outline"></ion-icon>
+      &nbsp;Loja Oficial</ion-button
+    >
+  </div>
+  <div class="main">
+    <div class="destaque"></div>
+    <h1>quarta-feira 10 de Agosto</h1>
+    <h2>14:00</h2>
+    <div class="img-right">
+      <img
+        src="https://upload.wikimedia.org/wikipedia/commons/9/92/LogoSantosFC.png"
+        alt="Corinthians"
+      />
+    </div>
+    <div class="img-left">
+      <img
+        src="https://www.imagensempng.com.br/wp-content/uploads/2021/01/52.png"
+        alt="Corinthians"
+      />
+    </div>
+    <div class="img-rigth"></div>
+    <div class="text-bottom"></div>
+  </div>
+
+  <div class="socio-rei">
+    <div class="socio-rei-img">
+      <img
+        src="https://scontent.fcgh2-1.fna.fbcdn.net/v/t1.6435-9/55589294_2306881852889114_2713229092555063296_n.png?stp=dst-png_s320x320&_nc_cat=106&ccb=1-7&_nc_sid=dd9801&_nc_ohc=v937qLa98aAAX88UExA&_nc_ht=scontent.fcgh2-1.fna&oh=00_AT-NsB0zFPJ-a5FiCz46NkbXIHb-72aUK1STorCzo8Zcbw&oe=62E3BF38"
+        alt="Sócio Rei"
+      />
+    </div>
+  </div>
+
+  <div class="video-content">
+    <video width="400" height="240" controls>
+      <source
+        src="https://www.youtube.com/watch?v=oqlI7Bit0K4"
+        type="video/mp4"
+      />
+    </video>
+  </div>
+</ion-content>
